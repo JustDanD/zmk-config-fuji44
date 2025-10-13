@@ -5,7 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -168,10 +167,10 @@
 
         sys {
             bindings = <
-&bootloader  &trans  &prevproj   &trans  &nextproj   &trans    &trans  &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &bootloader
-&trans       &trans  &prevtab    &trans  &nexttab    &trans    &trans  &trans        &trans          &trans        &trans        &trans
-&sys_reset   &trans  &prevgroup  &trans  &nextgroup  &trans    &trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &sys_reset
-                     &trans      &trans  &trans      &trans    &trans  &trans        &trans          &trans
+&bootloader  &trans  &prevproj   &trans  &nextproj   &trans    &trans  &trans  &trans  &trans  &trans  &bootloader
+&trans       &trans  &prevtab    &trans  &nexttab    &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&sys_reset   &trans  &prevgroup  &trans  &nextgroup  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                     &trans      &trans  &trans      &trans    &trans  &trans  &trans  &trans
             >;
         };
 
