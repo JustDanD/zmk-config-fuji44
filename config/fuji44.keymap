@@ -5,7 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -186,10 +185,10 @@
 
         sym {
             bindings = <
-&kp LEFT_BRACKET   &kp MINUS  &kp AMPERSAND          &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp PLUS        &trans  &trans        &trans        &trans        &trans         &trans
-&kp COMMA          &kp DOT    &kp DOLLAR             &kp PERCENT   &kp CARET             &kp EQUAL       &trans  &kp RSHIFT    &kp RCTRL     &kp LEFT_ALT  &kp RIGHT_WIN  &trans
-&kp RIGHT_BRACKET  &kp SLASH  &kp EXCL               &kp AT_SIGN   &kp HASH              &kp ASTERISK    &trans  &bt BT_SEL 0  &bt BT_SEL 1  &trans        &trans         &trans
-                              &kp RIGHT_PARENTHESIS  &kp GRAVE     &trans                &kp SPACE       &trans  &trans        &trans        &trans
+&kp LEFT_BRACKET   &kp MINUS  &kp AMPERSAND          &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp PLUS        &trans  &trans      &trans     &trans        &trans         &trans
+&kp COMMA          &kp DOT    &kp DOLLAR             &kp PERCENT   &kp CARET             &kp EQUAL       &trans  &kp RSHIFT  &kp RCTRL  &kp LEFT_ALT  &kp RIGHT_WIN  &trans
+&kp RIGHT_BRACKET  &kp SLASH  &kp EXCL               &kp AT_SIGN   &kp HASH              &kp ASTERISK    &trans  &trans      &trans     &trans        &trans         &trans
+                              &kp RIGHT_PARENTHESIS  &kp GRAVE     &trans                &kp SPACE       &trans  &trans      &trans     &trans
             >;
         };
     };
