@@ -238,10 +238,10 @@
         sys {
             display-name = "Sys";
             bindings = <
-&bootloader  &trans          &prevproj         &trans  &nextproj                &tog 7    &trans  &trans          &trans          &trans        &trans           &bootloader
-&trans       &trans          &prevtab          &trans  &nexttab                 &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
-&sys_reset   &bt BT_CLR_ALL  &kp LA(LC(LEFT))  &trans  &kp LA(LC(RIGHT_ARROW))  &trans    &trans  &msc SCRL_DOWN  &mkp LCLK       &mkp RCLK     &msc SCRL_UP     &trans
-                             &trans            &trans  &trans                   &trans    &trans  &trans          &trans          &trans
+&bootloader  &trans          &prevproj      &trans  &nextproj      &tog 7    &trans  &trans          &trans          &trans        &trans           &bootloader
+&trans       &trans          &prevtab       &trans  &nexttab       &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&sys_reset   &bt BT_CLR_ALL  &kp LA(LC(Q))  &trans  &kp LA(LC(E))  &trans    &trans  &msc SCRL_DOWN  &mkp LCLK       &mkp RCLK     &msc SCRL_UP     &trans
+                             &trans         &trans  &trans         &trans    &trans  &trans          &trans          &trans
             >;
         };
 
