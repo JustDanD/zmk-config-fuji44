@@ -278,8 +278,8 @@
         game {
             display-name = "Game";
             bindings = <
-&kp ESC  &kp Q      &kp E      &kp W      &kp R  &kp T        &trans     &trans  &trans  &trans  &trans  &trans
-&kp TAB  &kp A      &kp A      &kp S      &kp D  &kp G        &trans     &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp Q      &kp E      &kp F      &kp R  &kp T        &trans     &trans  &trans  &trans  &trans  &trans
+&kp TAB  &kp A      &kp S      &kp W      &kp D  &kp G        &trans     &trans  &trans  &trans  &trans  &trans
 &kp Z    &kp LSHFT  &kp X      &kp C      &kp V  &kp B        &trans     &trans  &trans  &trans  &trans  &trans
                     &kp LSHFT  &kp LCTRL  &mo 8  &kp SPACE    &kp ENTER  &tog 7  &trans  &trans
             >;
